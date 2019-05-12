@@ -1,0 +1,9 @@
+api
+build
+deps
+local
+.DS_Store
+._*
+*.zip
+
+
