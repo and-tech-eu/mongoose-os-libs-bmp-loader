@@ -2,6 +2,9 @@ author: Manfred Müller-Späth <fms1961@gmail.com>
 type: lib
 description: Wrapper for 'libbmpread'
 version: 1.0
+libs_version: ${mos.version}
+modules_version: ${mos.version}
+mongoose_os_version: ${mos.version}
 
 sources:
   - src
