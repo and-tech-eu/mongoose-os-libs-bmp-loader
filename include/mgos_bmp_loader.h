@@ -36,6 +36,7 @@ void mgos_bmp_loader_free(bmpread_t* p_bmp);
 uint8_t* mgos_bmp_loader_get_data(bmpread_t* p_bmp);
 uint32_t mgos_bmp_loader_get_width(bmpread_t* p_bmp);
 uint32_t mgos_bmp_loader_get_height(bmpread_t* p_bmp);
+uint8_t* mgos_bmp_loader_get_pixel(bmpread_t* p_bmp, uint32_t x, uint32_t y);
 
 bool mgos_bmp_loader_rotate(bmpread_t* p_bmp, uint16_t angle);
 

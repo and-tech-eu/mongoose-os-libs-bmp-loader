@@ -60,13 +60,13 @@ let BMP_LOADER = {
     return BMP_LOADER._getHeight(this._bmp, x, y);
   },
 
-  _create: ffi('void *mgos_bitmap_create(void);'),
-  _load: ffi('int mgos_bitmap_load(void *, char *, int);'),
-  _free: ffi('void mgos_bitmap_free(void *)'),
-  _getData: ffi('void *mgos_bitmap_get_data(void *)'),
-  _getPixel: ffi('void *mgos_bitmap_get_pixel(void *, int, int)'),
-  _getWidth: ffi('void *mgos_bitmap_get_width(void *, int, int)'),
-  _getHeight: ffi('void *mgos_bitmap_get_height(void *, int, int)'),
+  _create: ffi('void *mgos_bmp_loader_create(void);'),
+  _load: ffi('int mgos_bmp_loader_load(void *, char *, int);'),
+  _free: ffi('void mgos_bmp_loader_free(void *)'),
+  _getData: ffi('void *mgos_bmp_loader_get_data(void *)'),
+  _getPixel: ffi('void *mgos_bmp_loader_get_pixel(void *, int, int)'),
+  _getWidth: ffi('void *mgos_bmp_loader_get_width(void *, int, int)'),
+  _getHeight: ffi('void *mgos_bmp_loader_get_height(void *, int, int)'),
 
   BMPREAD_TOP_DOWN: 1,
   BMPREAD_BYTE_ALIGN: 2,
