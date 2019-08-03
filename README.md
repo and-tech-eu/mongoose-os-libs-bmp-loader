@@ -12,8 +12,6 @@ This library has a dependency:
 
    - [libbmpread](https://lab.burn.capital/chaz/libbmpread)
 
-#### For now MOS tool will not recursively fetch libraries from github, so you have to clone this library to your local system with ```git clone --recurse-submodules ...``` and build the app locally (needs Docker installed).
-
 ## Documentation
 
 ### These functions are available via C calls:
