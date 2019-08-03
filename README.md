@@ -1,16 +1,16 @@
 # Wrapper lib for Mongoose-OS to load BMP images
 
-This is a Mongoose OS library to use ["libbmpread"](https://github.com/chazomaticus/libbmpread) by Charles Lindsay "chazomaticus" seamlessly in Mongoose OS applications.
+This is a Mongoose OS library to use ["libbmpread"](https://lab.burn.capital/chaz/libbmpread) by Charles Lindsay "chazomaticus" seamlessly in Mongoose OS applications.
 
-The third-party software is integrated without modification under the directory `third_party`. The documentation for the underlying lib can also be found in the `third_party` directory. The external library is 100% original and not changed (included as submodule), so it's easier to integrate updates later, if they show up.
+The third-party software is integrated without modification under the directory `third_party`. The documentation for the underlying lib can also be found in the `third_party` directory. The external library is 100% original and not changed (will be included as submodule in a future version), so it's easier to integrate updates later, if they show up.
 
-### Be aware: this library is work in progress and a subject of change, so use it at your own risk! ###
+### Be aware: this library might be subject of change, so use it at your own risk! ###
 
 ## Dependencies
 
 This library has a dependency:
 
-   - [libbmpread](https://github.com/chazomaticus/libbmpread)
+   - [libbmpread](https://lab.burn.capital/chaz/libbmpread)
 
 #### For now MOS tool will not recursively fetch libraries from github, so you have to clone this library to your local system with ```git clone --recurse-submodules ...``` and build the app locally (needs Docker installed).
 
@@ -73,5 +73,3 @@ in your own MJS file like `ìnit.js`.
    // get the height of the image
    getHeight: function () {...}
 ```
-
-### Be aware: testing is pending, so again: use it at your own risk! ###
