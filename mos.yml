@@ -19,7 +19,7 @@ tags:
   - bitmap
   
 libs:
-  - origin: https://github.com/mongoose-os-libs/core
+  - location: https://github.com/mongoose-os-libs/core
 
 manifest_version: 2017-09-29
 
